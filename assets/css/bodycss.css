@@ -1,0 +1,240 @@
+
+.social-links.hd-v[_ngcontent-luo-c6] li[_ngcontent-luo-c6] {
+  margin-right: 20px !important;
+}
+@media (max-width: 767px) {
+  .mobile-header[_ngcontent-luo-c6] {
+    background: black;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+}
+
+
+.cs-til[_ngcontent-luo-c10] {
+  position: absolute !important;
+  left: 0 !important;
+  text-align: left !important;
+}
+
+
+.scroll-to-top[_ngcontent-luo-c8] {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f4b517;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+.scroll-to-top[_ngcontent-luo-c8]:hover {
+  background-color: #cda541;
+}
+
+
+.ct-content[_ngcontent-luo-c11] {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 500 !important;
+  font-family: IBM Plex Sans, sans-serif !important;
+}
+.bg-abt[_ngcontent-luo-c11] {
+  background-image: url("/assets/images/about-studio.jpg");
+}
+
+
+
+/* services */
+.ct-content[_ngcontent-ctr-c12] {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500 !important;
+    font-family: IBM Plex Sans, sans-serif !important;
+  }
+  .bg-abt[_ngcontent-ctr-c12] {
+    background-image: url(/assets/images/service-studio.jpg);
+  }
+  .align-c[_ngcontent-ctr-c12] {
+    align-items: center !important;
+  }
+  .playlist-info[_ngcontent-ctr-c12] h3[_ngcontent-ctr-c12] {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 300;
+  }
+  .playlist-thumb[_ngcontent-ctr-c12] > img[_ngcontent-ctr-c12] {
+    width: auto;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .playlist-info3[_ngcontent-ctr-c12] h3[_ngcontent-ctr-c12] {
+    color: #fff;
+    font-size: 35px;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  .playlist-info3[_ngcontent-ctr-c12] p[_ngcontent-ctr-c12] {
+    color: #fff;
+    font-size: 20px;
+  }
+  .cus-ser-img[_ngcontent-ctr-c12] > img[_ngcontent-ctr-c12] {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 26px;
+  }
+  .dark-sec[_ngcontent-ctr-c12] {
+    background: black;
+    padding: 80px 0;
+  }
+  .dark-sec2[_ngcontent-ctr-c12] {
+    padding: 80px 0;
+  }
+
+  @keyframes rightSpring {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: -30px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  @keyframes leftSpring {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 30px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+      
+      @keyframes rev-ani-mouse {
+        0% {
+          opacity: 1;
+          top: 29%;
+        }
+        15% {
+          opacity: 1;
+          top: 50%;
+        }
+        50% {
+          opacity: 0;
+          top: 50%;
+        }
+        to {
+          opacity: 0;
+          top: 29%;
+        }
+      }
+      @keyframes tp-rotateplane {
+        0% {
+          transform: perspective(120px);
+        }
+        50% {
+          transform: perspective(120px) rotateY(180deg);
+        }
+        to {
+          transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+        }
+      }
+      @keyframes tp-scaleout {
+        0% {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+          opacity: 0;
+        }
+      }
+      @keyframes tp-bouncedelay {
+        0%,
+        80%,
+        to {
+          transform: scale(0);
+        }
+        40% {
+          transform: scale(1);
+        }
+      }
+      @keyframes tp-rotate {
+        to {
+          transform: rotate(1turn);
+        }
+      }
+      @keyframes tp-bounce {
+        0%,
+        to {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1);
+        }
+      }
+      * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+
+
+
+
+
+
+
+      @keyframes fadeInUpSD {
+        0% {
+          opacity: 0;
+          transform: translateY(100px);
+          transform: translateY(100px);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+          transform: none;
+        }
+      }
+      @keyframes loader-1-1 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes loader-1-2 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(220deg);
+        }
+      }
+      @keyframes loader-1-3 {
+        0% {
+          transform: rotate(-140deg);
+        }
+        50% {
+          transform: rotate(-160deg);
+        }
+        100% {
+          transform: rotate(140deg);
+        }
+      }
